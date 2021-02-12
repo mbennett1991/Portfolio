@@ -45,6 +45,13 @@ p{
 #me {
     box-shadow: 0 .5 .5 rgba(0, 0, 0, 0.1)
 }
+#skills-p{
+    
+}
+li {
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+}
 /*   PORTFOLIO   */
 img {
     box-shadow: 0 .5 .5 rgba(0, 0, 0, 0.1);
