@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html id="index-html" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+
+<body id="index-body">
+    <!--   NAVIGATION   -->
+    <nav class="navbar bg-dark navbar-dark navbar-expand-lg sticky-top">
+        <div class="container">
+
+            <a href="index.html" class="navbar-brand" id="home-pg-btn">Michelle Bennett</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="#" class="nav-link" id="ab-me-btn">About me</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" id="projects-btn">Projects</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" id="contact-btn">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- CONTENT -->
+
+    <div class="carousel-inner" role="listbox" id="l-pg">
+        <div class="carousel-item active"><img src="assets/images/trees2.JPG" alt="Trees" class="w-100">
+            <div class="carousel-caption">
+                <div class=container>
+                    <div class="row justify-content-center">
+                        <div class="col-8">
+                            <h2 class="header">Full Stack Web Developer</h2>
+                            <hr>
+                            <div class="w-50"></div>
+                            <h6 class="header">Michelle Bennett</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!--   ABOUT ME   -->
+
+    <div class="container d-none" id="about-me">
+        <h1 class="header">About Me</h1>
+        <div class="row">
+            <div class="col mt-3">
+                <img class="fluid col-lg-3 w-100 float-left mr-3 mb-3" id="me" src="assets/images/me.jpg"
+                    alt="Michelle Bennett">
+                <p>Thanks for checking out my page! My name is Michelle Bennett, I’m in the last year of my 20s, and I
+                    have been living in Birmingham for just over a year. My favourite colour is green and some of my
+                    hobbies include reading, writing, houseplants, and watching YouTube. I am currently studying Coding
+                    through the University of Birmingham.
+                </p>
+                <p>I wanted to study coding because I have done some work in the past within the print production
+                    industry and, of all the work and study that I have done so far, working within some kind of
+                    creative field has always been my personal best. It seemed like the next logical step for me, in
+                    order to maximise my skill sets, was to learn to apply my creativity through web development.
+                </p>
+                <p>I have a ton of working experience in a number of different fields relating to customer service and
+                    customer satisfaction, hospitality, sales/canvassing and brand representation. Within these
+                    positions I’ve learned a valuable number of skill sets such as time management, attention to detail,
+                    and the ability to excel in sometimes stressful circumstances, of which I will continue to use to
+                    help push myself through this program.
+                </p>
+                <p>At this moment in time I have learned the foundations of HTML, CSS and a touch of Javascript.
+                    Currently, I am working on building responsive, mobile-first web pages using Bootstrap. By the end
+                    of this course, I hope to be highly skilled in Full Stack Web Development. With enough confidence,
+                    and my new found skill sets, I hope to continue working within the coding world to empower others in
+                    being a presence on the internet.
+                </p>
+                <p>The End!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--   PROJECTS   -->
+
+    <div class="container d-none" id="projects-pg">
+        <div class="row align-items-center mb-20px">
+          <div class="col-lg-4 mt-3 mb-3">
+            <a href="https://mbennett1991.github.io/Week-2-Refactored/02-Homework/Develop/">
+            <img class="w-100" src="assets/images/New-Jersey.JPG" alt="Example4"></a>
+          </div>
+          <div class="col-lg-4 mt-3 mb-3">
+            <a href="https://mbennett1991.github.io/Week-2-Refactored/02-Homework/Develop/">
+            <img class="w-100" src="assets/images/New-Jersey.JPG" alt="Example4"></a>
+          </div>
+          <div class="col-lg-4 mt-3 mb-3">
+            <a href="https://mbennett1991.github.io/Week-2-Refactored/02-Homework/Develop/">
+            <img class="w-100" src="assets/images/New-Jersey.JPG" alt="Example4"></a>
+          </div>
+        </div>
+      </div>
+
+      <!--   CONTACT   -->
+
+      <div class="container contact-form d-none" id="contact-pg">
+        <h1 class="header">Get in Touch</h1>
+        <div class="row">
+            <div class="col-lg-6">
+            </div>
+            <div class="col-lg-6">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea class="form-control" rows="5"></textarea>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-dark btn-block">
+                    Send
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="sticky-footer page-footer font-small bg-dark">
+        <div class="container-fluid text-center">
+            &copy; 2020 : <a
+                href="https://mbennett1991.github.io/Week-3-Bootstrap-Portfolio/Homework/index.html">Michelle Bennett
+                Bootstrap Portfolio</a>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="assets/script/script.js"></script>
+
+</body>
+
+</html>
