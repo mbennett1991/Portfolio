@@ -23,17 +23,22 @@ p{
 }
 .nav-link.active,
 .nav-link:hover {
-    color: #FF69b4!important;
+    color: pink!important;
 }
 /*   INDEX   */
-#carousel {
-    box-shadow: 0 1rem 1rem rgba (0, 0, 0, .1);
+#l-pg{
+    background-image: url("../images/trees2.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
 }
 .carousel-caption {
-    position: absolute;
-    top: 45%;
-    transform: translateY(-50%);
     text-transform: uppercase;
+}
+#hrlp{
+    border-color: darkgray;
 }
 /*   ABOUT ME   */
 #me {
@@ -87,5 +92,5 @@ footer {
 .page-footer:active,
 .page-footer:hover,
 a {
-    color: #FF69b4!important;
+    color: pink!important;
 }
