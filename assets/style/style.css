@@ -10,12 +10,6 @@ p{
 .container {
     height: 100%;
 }
-#index-body {
-    height: 100%!important;
-}
-#index-html {
-    height: 100%!important;
-}
 /* NAVIGATION*/
 .navbar {
     font-size: 1.15rem;
@@ -45,16 +39,25 @@ p{
 #me {
     box-shadow: 0 .5 .5 rgba(0, 0, 0, 0.1)
 }
-#skills-p{
-    
-}
 li {
     list-style-type: none;
     font-family: 'Montserrat', sans-serif;
 }
-/*   PORTFOLIO   */
-img {
-    box-shadow: 0 .5 .5 rgba(0, 0, 0, 0.1);
+/*   PROJECTS   */
+.modal-content{
+    position: center;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    width: 85%;
+}
+@media (max-width: 962px) {
+    .modal-backdrop { 
+        display: none !important;
+    }
+    #modals {
+        display: none !important;
+    }
 }
 /*   CONTACT   */
 .contact-body{

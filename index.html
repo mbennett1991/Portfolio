@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Michelle Bennett Portfolio</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
@@ -30,9 +31,11 @@
                     <li class="nav-item"><a href="#" class="nav-link" id="ab-me-btn">About me</a></li>
                     <li class="nav-item"><a href="#" class="nav-link" id="projects-btn">Projects</a></li>
                     <li class="nav-item"><a href="#" class="nav-link" id="contact-btn">Contact</a></li>
-                    <li class="nav-item"><a href="https://github.com/mbennett1991" class="nav-link" target="_blank"><i class="bi bi-github"></i></a></li>
-                    <li class="nav-item"><a href="https://www.linkedin.com/in/michelle-bennett-6a0418ba/" class="nav-link" target="_blank"><i class="bi bi-linkedin"></i>
-                    </a></li>
+                    <li class="nav-item"><a href="https://github.com/mbennett1991" class="nav-link" target="_blank"><i
+                                class="bi bi-github"></i></a></li>
+                    <li class="nav-item"><a href="https://www.linkedin.com/in/michelle-bennett-6a0418ba/"
+                            class="nav-link" target="_blank"><i class="bi bi-linkedin"></i>
+                        </a></li>
                 </ul>
             </div>
 
@@ -67,11 +70,11 @@
         <hr>
         <div class="row">
             <div class="col-lg-3 col-md-3 mt-3">
-                <img class="fluid w-100 float-left mr-3 mb-3" id="me" src="assets/images/me.jpg"
-                    alt="Michelle Bennett">
+                <img class="fluid w-100 float-left mr-3 mb-3" id="me" src="assets/images/me.jpg" alt="Michelle Bennett">
             </div>
             <div class="col-lg-9 col-md-9 d-flex align-items-center">
-                    <p class="text-center" id="skills-p">Hello and thank you for checking out my portfolio! I am currently working through a
+                <p class="text-center" id="skills-p">Hello and thank you for checking out my portfolio! I am currently
+                    working through a
                     certification program through the University of Birmingham in Full Stack Web Development. I have a
                     passion for working behind the scenes to create interactive, responsive, user friendly web pages
                     that capture people's attention.</p>
@@ -103,27 +106,64 @@
     <!--   PROJECTS   -->
 
     <div class="container d-none" id="projects-pg">
-        <div class="row align-items-center mb-20px">
+        <!--  MODALS  -->
+        <div class="col-lg" id="modals">
+            <div class="modal" id="eatModal">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button class="btn btn-dark close float-right" type="button" data-dismiss="modal">X</button><br>
+                        <img src="assets/images/Eat-in-n-Drink-in.gif" alt="Eat-in-n-Drink-in" class="modal-img">
+                    </div>
+                </div>
+            </div>
+            <div class="modal" id="quizModal">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button class="btn btn-dark close float-right" type="button" data-dismiss="modal">X</button><br>
+                        <img src="assets/images/Coding-Quiz-App.gif" alt="Code-Quiz">
+                    </div>
+                </div>
+            </div>
+            <div class="modal" id="wdModal">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button class="btn btn-dark close float-right" type="button" data-dismiss="modal">X</button><br>
+                        <img src="assets/images/Work-Day-Scheduler.gif" alt="Work-Day-Scheduler">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--   MODALS END   -->
+        <div class="row d-flex align-items-center mt-20 mb-20px">
             <div class="col-lg-4 mt-3 mb-3 text-center">
-                    <img class="w-100" src="assets/images/Eat-in-n-Drink-in.gif" alt="Example4">
-                    <br>
-                    <br>
-                    <a class="btn btn-dark" href="https://github.com/mbennett1991/eat-in-n-drink-in" target="_blank">Code</a>
-                    <a class="btn btn-dark" href="https://mbennett1991.github.io/eat-in-n-drink-in/" target="_blank">Deployed</a>
+                <a href="#myModal" data-toggle="modal" data-target="#eatModal"><img class="w-100"
+                        src="assets/images/Eat-in-n-Drink-in.gif" alt="Eat-in-n-Drink-in"></a>
+                <br>
+                <br>
+                <a class="btn btn-dark" href="https://github.com/mbennett1991/eat-in-n-drink-in"
+                    target="_blank">Code</a>
+                <a class="btn btn-dark" href="https://mbennett1991.github.io/eat-in-n-drink-in/"
+                    target="_blank">Deployed</a>
             </div>
             <div class="col-lg-4 mt-3 mb-3 text-center">
-                    <img class="w-100" src="assets/images/Coding-Quiz-App.gif" alt="Example4">
-                    <br>
-                    <br>
-                    <a class="btn btn-dark" href="https://github.com/mbennett1991/eat-in-n-drink-in" target="_blank">Code</a>
-                    <a class="btn btn-dark" href="https://mbennett1991.github.io/eat-in-n-drink-in/" target="_blank">Deployed</a>
-                </div>
+                <a href="#myModal1" data-toggle="modal" data-target="#quizModal"><img class="w-100"
+                        src="assets/images/Coding-Quiz-App.gif" alt="Code-Quiz"></a>
+                <br>
+                <br>
+                <a class="btn btn-dark" href="https://github.com/mbennett1991/Week-5-Coding-Quiz"
+                    target="_blank">Code</a>
+                <a class="btn btn-dark" href="https://mbennett1991.github.io/Week-5-Coding-Quiz/"
+                    target="_blank">Deployed</a>
+            </div>
             <div class="col-lg-4 mt-3 mb-3 text-center">
-                    <img class="w-100" src="assets/images/New-Jersey.JPG" alt="Example4">
-                    <br>
-                    <br>
-                    <a class="btn btn-dark" href="https://github.com/mbennett1991/eat-in-n-drink-in" target="_blank">Code</a>
-                    <a class="btn btn-dark" href="https://mbennett1991.github.io/eat-in-n-drink-in/" target="_blank">Deployed</a>
+                <a href="#myModal2" data-toggle="modal" data-target="#wdModal"><img class="w-100"
+                        src="assets/images/Work-Day-Scheduler.gif" alt="Work-Day-Scheduler"></a>
+                <br>
+                <br>
+                <a class="btn btn-dark" href="https://github.com/mbennett1991/Week-6-DayPlanner"
+                    target="_blank">Code</a>
+                <a class="btn btn-dark" href="https://mbennett1991.github.io/Week-6-DayPlanner/"
+                    target="_blank">Deployed</a>
             </div>
         </div>
     </div>
@@ -156,7 +196,7 @@
             </div>
         </div>
     </div>
-<!--
+    <!--
     <footer class="sticky-footer page-footer font-small bg-dark">
         <div class="container-fluid text-center">
             &copy; 2020 : <a
