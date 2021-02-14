@@ -20,7 +20,7 @@ Here is an updated version of my Portfolio to showcase my newly acquired mad ski
 ---
 <a name = "Usage"></a>
 ### Usage  
-Here is our application in action!
+Here is my portfolio in action!
 
 ![](assets/images/screenshot1.png)<br>
 ![](assets/images/screenshot2.png)<br>
