@@ -22,13 +22,12 @@ Here is an updated version of my Portfolio to showcase my newly acquired mad ski
 ### Usage  
 Here is my portfolio in action!
 
-![](assets/images/screenshot1.png)<br>
-![](assets/images/screenshot2.png)<br>
+![](assets/images/MB-Portfolio.gif)<br>
 
 ---
 <a name = "Links"></a>
 ### Links
-Below is a link to my gitHub pages to see more of our work!
+Below is a link to my gitHub pages to see more of my work!
 
 <a href = "https://github.com/mbennett1991/">Michelle Bennett</a>
  
