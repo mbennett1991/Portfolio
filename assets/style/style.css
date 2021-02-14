@@ -21,11 +21,13 @@ p{
     color: black;
 }
 .navbar {
-    font-size: 1.15rem;
-    font-weight: 600;
+    font-size: 18px;
     letter-spacing: .1rem;
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.1);
     z-index: 1;
+}
+.bi-github, .bi-linkedin{
+    font-size: 20px;
 }
 .nav-item {
     padding:.5rem;
@@ -54,6 +56,10 @@ p{
 /*   ABOUT ME   */
 #me {
     box-shadow: 0 .5 .5 rgba(0, 0, 0, 0.1)
+}
+.abi{
+    font-size: 72px;
+    color: pink;
 }
 li {
     list-style-type: none;
